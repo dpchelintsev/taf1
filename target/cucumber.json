@@ -1,0 +1,328 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Purchase on amazon",
+        "description": "",
+        "id": "purchase-test;purchase-on-amazon",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 230981800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I\u0027m on main page",
+            "match": {
+              "location": "MainPageStepDefinition.iMOnMainPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 760425500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Account and Lists button",
+            "match": {
+              "location": "MainPageStepDefinition.iClickOnAccountAndListsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10763693400,
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (12e1ddf8e363d0a43ea3a326281ae1cf)] -\u003e xpath: //input[@type\u003d\u0027password\u0027]] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: \u00273.13.0\u0027, revision: \u00272f0d292\u0027, time: \u00272018-06-25T15:24:21.231Z\u0027\nSystem info: host: \u0027dpchelintsev\u0027, ip: \u002710.0.75.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\DPCHEL~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55112}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.80, webStorageEnabled: true}\nSession ID: 12e1ddf8e363d0a43ea3a326281ae1cf\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)\r\n\tat UI.pages.SignInPage.enterPassword(SignInPage.java:41)\r\n\tat UI.pages.SignInPage.signIn(SignInPage.java:47)\r\n\tat UI.step_definition.SignInPageStepDefinition.iMSigningIn(SignInPageStepDefinition.java:25)\r\n\tat ✽.And I\u0027m signing in(purchase.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I\u0027m signing in",
+            "match": {
+              "location": "SignInPageStepDefinition.iMSigningIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I search for \"Iphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Iphone",
+                  "offset": 14
+                }
+              ],
+              "location": "MainPageStepDefinition.iSearchFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I see list of result",
+            "match": {
+              "location": "SearchResultPageStepDefinition.iSeeListOfResult()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I select first result",
+            "match": {
+              "location": "SearchResultPageStepDefinition.iSelectFirstResult()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I click on \u0027Add to cart\u0027 button",
+            "match": {
+              "location": "SearchResultPageStepDefinition.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I click on \u0027View cart\u0027 button",
+            "match": {
+              "location": "SearchResultPageStepDefinition.iClickOnViewCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I see \"iPhone\" in cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iPhone",
+                  "offset": 7
+                }
+              ],
+              "location": "ShoppingCartStepDefinition.iSeeInCart(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Purchase test",
+    "description": "",
+    "id": "purchase-test",
+    "keyword": "Feature",
+    "uri": "purchase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Feature_Purchase"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Create account on amazon",
+        "description": "",
+        "id": "registration-test;create-account-on-amazon",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22868600,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//a[@aria-label\u003d\u0027Amazon\u0027]\"}\n  (Session info: chrome\u003d71.0.3578.80)\n  (Driver info: chromedriver\u003d2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform\u003dWindows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.13.0\u0027, revision: \u00272f0d292\u0027, time: \u00272018-06-25T15:24:21.231Z\u0027\nSystem info: host: \u0027dpchelintsev\u0027, ip: \u002710.0.75.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\DPCHEL~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55112}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.80, webStorageEnabled: true}\nSession ID: 12e1ddf8e363d0a43ea3a326281ae1cf\n*** Element info: {Using\u003dxpath, value\u003d.//a[@aria-label\u003d\u0027Amazon\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)\r\n\tat UI.step_definition.MainPageStepDefinition.iMOnMainPage(MainPageStepDefinition.java:14)\r\n\tat ✽.Given I\u0027m on main page(registration.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I\u0027m on main page",
+            "match": {
+              "location": "MainPageStepDefinition.iMOnMainPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I click on Account and Lists button",
+            "match": {
+              "location": "MainPageStepDefinition.iClickOnAccountAndListsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I\u0027m on Sign In page",
+            "match": {
+              "location": "SignInPageStepDefinition.iMOnSignInPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click on Create Account button",
+            "match": {
+              "location": "SignInPageStepDefinition.iClickOnCreateAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 10,
+                "value": "#Next step isn\u0027t finished. I blocked by issue with receiving email"
+              }
+            ],
+            "line": 11,
+            "name": "I create new account",
+            "match": {
+              "location": "RegistrationPageStepDefinition.iCreateNewAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I\u0027m on main page",
+            "match": {
+              "location": "MainPageStepDefinition.iMOnMainPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Login on amazon",
+        "description": "",
+        "id": "registration-test;login-on-amazon",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18113000,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//a[@aria-label\u003d\u0027Amazon\u0027]\"}\n  (Session info: chrome\u003d71.0.3578.80)\n  (Driver info: chromedriver\u003d2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform\u003dWindows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.13.0\u0027, revision: \u00272f0d292\u0027, time: \u00272018-06-25T15:24:21.231Z\u0027\nSystem info: host: \u0027dpchelintsev\u0027, ip: \u002710.0.75.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\DPCHEL~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55112}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.80, webStorageEnabled: true}\nSession ID: 12e1ddf8e363d0a43ea3a326281ae1cf\n*** Element info: {Using\u003dxpath, value\u003d.//a[@aria-label\u003d\u0027Amazon\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)\r\n\tat UI.step_definition.MainPageStepDefinition.iMOnMainPage(MainPageStepDefinition.java:14)\r\n\tat ✽.Given I\u0027m on main page(registration.feature:16)\r\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "I\u0027m on main page",
+            "match": {
+              "location": "MainPageStepDefinition.iMOnMainPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I click on Account and Lists button",
+            "match": {
+              "location": "MainPageStepDefinition.iClickOnAccountAndListsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I\u0027m on Sign In page",
+            "match": {
+              "location": "SignInPageStepDefinition.iMOnSignInPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I\u0027m signing in",
+            "match": {
+              "location": "SignInPageStepDefinition.iMSigningIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I\u0027m on main page",
+            "match": {
+              "location": "MainPageStepDefinition.iMOnMainPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Registration test",
+    "description": "",
+    "id": "registration-test",
+    "keyword": "Feature",
+    "uri": "registration.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Feature_Registration"
+      }
+    ]
+  }
+]

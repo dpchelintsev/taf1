@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Testng Cucumber Suite]" parallel="tests">
+  <test thread-count="5" verbose="0" name="Run All Tests(failed)" parallel="tests">
+    <classes>
+      <class name="UI.test_utils.TestRunner">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0 1"/>
+          <include name="quit"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- UI.test_utils.TestRunner -->
+      <class name="API.users.suite.UsersSuite">
+        <methods>
+          <include name="getUser"/>
+          <include name="registerUserFlow" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- API.users.suite.UsersSuite -->
+    </classes>
+  </test> <!-- Run All Tests(failed) -->
+</suite> <!-- Failed suite [Testng Cucumber Suite] -->

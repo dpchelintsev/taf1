@@ -1,0 +1,9 @@
+UI\step_definition\SignInPageStepDefinition.class
+UI\step_definition\SearchResultPageStepDefinition.class
+UI\step_definition\ShoppingCartStepDefinition.class
+UI\test_utils\TestRunner.class
+UI\step_definition\MainPageStepDefinition.class
+API\users\suite\UsersSuite.class
+UI\step_definition\RegistrationPageStepDefinition.class
+API\users\data_provider\UsersDataProvider.class
+API\users\suite\UsersSteps.class
