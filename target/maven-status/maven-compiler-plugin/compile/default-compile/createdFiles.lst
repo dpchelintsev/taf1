@@ -1,0 +1,9 @@
+UI\pages\RegistrationPage.class
+UI\pages\MainPage.class
+UI\test_base\PageInstance.class
+UI\utils\Consts.class
+UI\pages\ShoppingCartPage.class
+UI\pages\SignInPage.class
+UI\pages\SearchResultPage.class
+UI\test_base\BasePage.class
+UI\utils\MailUtils.class

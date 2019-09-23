@@ -1,0 +1,4 @@
+[0613/120247.638:ERROR:process_info.cc(375)] NtQuerySystemInformation SystemExtendedHandleInformation: The specified information record length does not match the length required for the specified information class. (0xc0000004)
+[0613/120247.659:ERROR:file_io_win.cc(161)] CreateFile C:\Users\DPCHEL~1\AppData\Local\Temp\scoped_dir19656_3812\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[0613/120602.784:ERROR:process_info.cc(375)] NtQuerySystemInformation SystemExtendedHandleInformation: The specified information record length does not match the length required for the specified information class. (0xc0000004)
+[0613/120602.806:ERROR:file_io_win.cc(161)] CreateFile C:\Users\DPCHEL~1\AppData\Local\Temp\scoped_dir20916_1029\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
